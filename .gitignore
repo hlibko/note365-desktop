@@ -64,7 +64,7 @@ typings/
 .vscode
 
 # App configuration files
-config.js
+#config.js
 
 # App distributables
 dist
