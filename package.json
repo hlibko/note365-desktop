@@ -1,0 +1,37 @@
+{
+  "name": "note365-desktop",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron src/index.js",
+    "final": "electron final/index.js",
+    "pack": "electron-builder -mwl --dir",
+    "dist": "electron-builder -mwl"
+  },
+  "build": {
+    "appId": "online.note365",
+    "productName": "Note365"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javascripteverywhere/desktop.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javascripteverywhere/desktop/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "electron": "6.0.0",
+    "electron-builder": "21.2.0",
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2"
+  },
+  "dependencies": {
+    "electron-util": "0.12.1"
+  }
+}
